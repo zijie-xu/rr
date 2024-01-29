@@ -1,1 +1,7 @@
-111111111111111
+streamlit
+pandas
+numpy
+xlwings
+tkinter
+pickle
+PIL
