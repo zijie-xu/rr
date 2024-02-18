@@ -20,7 +20,7 @@ rrmodelfile ='static/1.dat'
 print(rrmodelfile)
 #rrmodelfile = '\\10.97.1.43\赛轮集团股份有限公司\技术研发中心\研发实验中心\技术研发中心实验系统\1.中心实验室\1.中心实验室\9-实验中心-成品组\03 六分力组\5、数据处理\rr\R16_R17_R18_M8(104,10).dat'
 
-load_model=pickle.load(open(rrmodelfile,'r'))
+load_model=pickle.load(open(rrmodelfile,'rb'))
 
 rr0=0
 with st.container():
