@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import xlwings as xw
-import tkinter as tk
+import tkinter
 
 import pickle
 from PIL import Image
@@ -35,10 +35,10 @@ with st.container():
     col3, col4 = st.columns(2)
     with col3:
         if st.button('File Read'):
-            root = tk.Tk()
+            root = tkinter.Tk()
             root.withdraw()
             
-            top = tk.Toplevel(root)
+            top = tkinter.Toplevel(root)
             top.title("选择文件")
             f_path = filedialog.askopenfilename(parent=top)
             app = xw.App(visible=False, add_book=False)
