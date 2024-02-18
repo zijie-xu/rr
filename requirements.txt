@@ -1,5 +1,5 @@
-streamlit=1.27.2
-pandas=1.5.3
-numpy=1.23.5
-xlwings=0.29.1
+streamlit
+pandas
+numpy
+xlwings
 PIL
