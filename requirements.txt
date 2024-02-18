@@ -2,6 +2,5 @@ streamlit
 pandas
 numpy
 xlwings
-tkinter
 pickle
 PIL
