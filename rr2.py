@@ -16,7 +16,8 @@ from PIL import Image
 from tkinter import filedialog
 st.title('Tire RR Values Prediction')
 st.write(':blue[Only] :blue[application] :blue[to] :red[R16,R17,R18] :blue[Tires]')
-rrmodelfile = '\\10.97.1.43\赛轮集团股份有限公司\技术研发中心\研发实验中心\技术研发中心实验系统\1.中心实验室\1.中心实验室\9-实验中心-成品组\03 六分力组\5、数据处理\rr\R16_R17_R18_M8(104,10).dat'
+rrmodelfile ='https://github.com/zijie-xu/rr/tree/main/R16_R17_R18_M8(104,10).dat'
+#rrmodelfile = '\\10.97.1.43\赛轮集团股份有限公司\技术研发中心\研发实验中心\技术研发中心实验系统\1.中心实验室\1.中心实验室\9-实验中心-成品组\03 六分力组\5、数据处理\rr\R16_R17_R18_M8(104,10).dat'
 #load_model=pickle.load(open(rrmodelfile,"rb"))
 with open(rrmodelfile,'rb') as f:
     load_model = pickle.load(f)
